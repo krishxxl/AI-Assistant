@@ -1,0 +1,14 @@
+ai-personal-assistant/
+│
+├── main.py                # Main script to run the assistant in terminal mode
+├── app.py                 # Flask web interface for the assistant
+├── voice_recognition.py   # Handles voice input
+├── text_to_speech.py      # Handles text-to-speech output
+├── command_handler.py     # Processes and executes commands
+├── weather_api.py         # Fetches weather data
+├── reminders.py           # Manages reminders
+├── todo.py                # Manages to-do list (optional)
+├── jokes.py               # Fetches and tells jokes (optional)
+├── templates/             # Folder for Flask HTML templates
+│   └── index.html         # HTML file for the web interface
+└── requirements.txt       # List of dependencies
