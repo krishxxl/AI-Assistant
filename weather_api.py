@@ -2,7 +2,7 @@ import requests
 from text_to_speech import speak
 
 def get_weather(city):
-    api_key = "a562097ab2c2a74ee6916bb769ba7769"  #  OpenWeatherMap API key
+    api_key = "your_api_key"  #  OpenWeatherMap API key
     base_url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
     response = requests.get(base_url)
     data = response.json()
